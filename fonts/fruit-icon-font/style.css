@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'fruit-icon-font';
+    src: url('fonts/fruit-icon-font.eot?ibo2vk');
+    src: url('fonts/fruit-icon-font.eot?ibo2vk#iefix') format('embedded-opentype'), url('fonts/fruit-icon-font.ttf?ibo2vk') format('truetype'), url('fonts/fruit-icon-font.woff?ibo2vk') format('woff'), url('fonts/fruit-icon-font.svg?ibo2vk#fruit-icon-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'fruit-icon-font' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ic_basket:before {
+    content: "\e901";
+}
+
+.ic_arrow_right:before {
+    content: "\e900";
+}
+
+.ic_credit_card:before {
+    content: "\e902";
+}
+
+.ic_delivery:before {
+    content: "\e903";
+}
+
+.ic_facebook:before {
+    content: "\e904";
+}
+
+.ic_linkedin:before {
+    content: "\e905";
+}
+
+.ic_search:before {
+    content: "\e906";
+}
+
+.ic_slider_arrow_left:before {
+    content: "\e907";
+}
+
+.ic_slider_arrow_right:before {
+    content: "\e908";
+}
+
+.ic_smartphone:before {
+    content: "\e909";
+}
+
+.ic_twitter:before {
+    content: "\e90a";
+}
+
+.ic_youtube:before {
+    content: "\e90b";
+}
